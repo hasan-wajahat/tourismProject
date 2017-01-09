@@ -26,4 +26,35 @@ header{
     float: left;
     border-left: 1px dotted #999;
     height: 100px;
+    padding-left: 10px;
+}
+
+.navigationBar{
+    margin-top: 20px;
+    margin-left: 135px;
+    margin-right: 135px;
+    border-top: 1px dotted #999;
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+@media (min-width: 768px){
+    .navigationBar{
+        width: 750px
+    }
+}
+@media (min-width: 992px){
+    .navigationBar{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .navigationBar{
+        width: 1170px;
+    }
+}
+
+ul li:hover{
+    cursor: pointer;
 }
