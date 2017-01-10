@@ -60,6 +60,11 @@ header{
     }
 }
 
+.navbar-default{
+    background-color: inherit;
+    border: none;
+}
+
 ul li:hover{
     cursor: pointer;
 }
