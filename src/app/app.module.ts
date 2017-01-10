@@ -6,13 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
-import { BannerComponent } from './header/banner/banner.component';
+import { BannerComponent } from './main/banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MainComponent,
+    BannerComponent,
     BannerComponent
   ],
   imports: [

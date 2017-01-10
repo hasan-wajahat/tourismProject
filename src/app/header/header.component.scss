@@ -1,3 +1,8 @@
+$screenSize1 : 1200px;
+$screenSize2: 992px;
+$screenSize3: 768px;
+$screenSize4: 480px;
+
 header{
     margin-top: 30px;
 }
@@ -6,7 +11,7 @@ header{
     display: none;
 }
 
-@media (min-width:480px){
+@media (min-width:$screenSize4){
     .boxContainer{
         width: 970px;
         margin-right: auto;
@@ -39,17 +44,17 @@ header{
     padding-left: 15px;
 
 }
-@media (min-width: 768px){
+@media (min-width: $screenSize3){
     .boxContainer, .navigationBar{
         width: 750px
     }
 }
-@media (min-width: 992px){
+@media (min-width: $screenSize2){
     .boxContainer, .navigationBar{
         width: 970px;
     }
 }
-@media (min-width: 1200px){
+@media (min-width: $screenSize1){
     .boxContainer, .navigationBar{
         width: 1170px;
     }
