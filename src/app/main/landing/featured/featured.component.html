@@ -6,11 +6,17 @@
     <div *ngIf="i%2" class="row">
       <div class="col-sm-6">
         <h2>{{featuredSites[i-1].place}}</h2>
+        <img src="../../assets/{{featuredSites[i-1].image}}" width="450px" height="350px"/>
+        <div class="description">
         <p>{{featuredSites[i-1].description}}</p>
+        </div>
       </div>
       <div class="col-sm-6">
         <h2>{{featuredSites[i].place}}</h2>
-        <p>{{featuredSites[i-1].description}}</p>
+        <img src="../../assets/{{featuredSites[i].image}}" width="450px" height="350px"/>
+        <div class="description">
+        <p>{{featuredSites[i].description}}</p>
+        </div>
       </div>
     </div>
   </div>
