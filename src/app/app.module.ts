@@ -12,6 +12,7 @@ import { LandingComponent } from './main/landing/landing.component';
 import { BookingComponent } from './main/booking/booking.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { InfoComponent } from './main/info/info.component';
+import { FeaturedComponent } from './main/landing/featured/featured.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { InfoComponent } from './main/info/info.component';
     LandingComponent,
     BookingComponent,
     ContactComponent,
-    InfoComponent
+    InfoComponent,
+    FeaturedComponent
   ],
   imports: [
     BrowserModule,

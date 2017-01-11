@@ -1,0 +1,17 @@
+<div class="container-fluid centreText">
+  <div class="jumbotron">
+    <h2> Featured Sites </h2>
+  </div>
+  <div *ngFor="let site of featuredSites; let i = index" >
+    <div *ngIf="i%2" class="row">
+      <div class="col-sm-6">
+        <h2>{{featuredSites[i-1].place}}</h2>
+        <p>{{featuredSites[i-1].description}}</p>
+      </div>
+      <div class="col-sm-6">
+        <h2>{{featuredSites[i].place}}</h2>
+        <p>{{featuredSites[i-1].description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
